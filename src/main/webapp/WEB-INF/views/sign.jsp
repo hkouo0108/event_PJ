@@ -22,25 +22,43 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-26">
-						Welcome
+					<span class="login100-form-title p-b-75">
+						Sign up
 					</span>
-					<span class="login100-form-title p-b-48">
-						<i class="zmdi zmdi-font"></i>
-					</span>
+					
 
-					<div class="wrap-input100 validate-input">
+					<div class="wrap-input100 validate-input m-b-80" data-validate="아이디를 확인부탁드립니다">
 						<input class="input100" type="text" name="id">
-						<span class="focus-input100" data-placeholder="id"></span>
+						<span class="focus-input100" data-placeholder="아이디를 입력해주세요"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
+					<div class="wrap-input100 validate-input" data-validate="비밀번호 확인 부탁드립니다">
 						<span class="btn-show-pass">
 							<i class="zmdi zmdi-eye"></i>
 						</span>
 						<input class="input100" type="password" name="pass">
-						<span class="focus-input100" data-placeholder="Password"></span>
+						<span class="focus-input100" data-placeholder="비밀번호를 입력해주세요"></span>
 					</div>
+					
+					<div class="wrap-input100 validate-input m-b-80" data-validate="비밀번호 확인 부탁드립니다">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="pass-check">
+						<span class="focus-input100" data-placeholder="비밀번호를 한번 더 입력해주세요"></span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="이메일을 확인부탁드립니다" >
+						<input class="input100" type="text" name="email">
+						<span class="focus-input100" data-placeholder="이메일을 입력해주세요."></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="인증번호를 확인해주세요">
+						<input class="input100" type="text" name="email-check">
+						<span class="focus-input100" data-placeholder="인증번호 입력"></span>
+					</div>
+					
 					
 					
 					
@@ -48,23 +66,12 @@
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
 							<button class="login100-form-btn">
-								Login
+								회원가입
 							</button>
 						</div>
 					</div>
 					
 				
-
-					<div class="text-center p-t-115">
-						<span class="txt1">
-							계정이 없으신가요?
-						</span>
-
-						<a class="txt2 m-l-5" href="sign">
-							회원가입 하기
-						</a>
-					</div>
-					
 				</form>
 				
 				

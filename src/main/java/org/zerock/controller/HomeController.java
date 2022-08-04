@@ -43,6 +43,13 @@ public class HomeController extends HttpServlet {
     	return "login";
     }
     
+    @GetMapping({"/sign"})
+    public String sign() {
+		
+    	
+    	return "sign";
+    }
+    
     
     
    

@@ -1,6 +1,9 @@
 package org.zerock.controller;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,6 +15,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 
@@ -25,14 +29,19 @@ public class HomeController extends HttpServlet {
     }
     
     @GetMapping({"/"})
-    public String main() {
+    public List<String> main() {
 		
     	
-    	
-    	return "mainRe";
+    	return Arrays.asList("안녕하세요", "/");
     }
     
     
+    @GetMapping({"/login"})
+    public String login() {
+		
+    	
+    	return "login";
+    }
     
     
     
